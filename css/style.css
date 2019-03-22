@@ -1,3 +1,8 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
 body {
     background-color: #f4f4f4;
     color: #555;
@@ -11,7 +16,7 @@ body {
     width: 80%;
     margin: auto ;
     overflow: hidden;
-    max-width: 960px;
+    max-width: 900px;
 }
 
 #main-header {
@@ -60,7 +65,7 @@ body {
 #main{
     float: left;
     width: 70%;
-    padding: 0 30px;
+    padding: 0 30px 0 0;
     box-sizing: border-box;
 }
 
@@ -69,7 +74,7 @@ body {
     width: 30%;
     background: #333;
     color: #fff;
-    padding: 10px;
+    padding: 0 25px;
     box-sizing: border-box;
 }
 
@@ -78,8 +83,9 @@ body {
     color: #fff;
     text-align: center;
     padding: 4px;
-    margin-top: 40px;
-    position: relative;
+    margin-top: 80px;
+    /* position: relative; */
+    margin-bottom: 0;
 }
 
 @media(max-width: 600px){
